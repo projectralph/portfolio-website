@@ -11,11 +11,11 @@
 }
 
 :root {
-  --color-bg: #c44536;
-  --color-bg-variant: #8a817c;
-  --color-primary: #ffe1a8;
-  --color-primary-variant: #e07a5f;
-  --color-white: #fff;
+  --color-bg: #3e555e;
+  --color-bg-variant: #22333b;
+  --color-primary: #ACBCB1;
+  --color-primary-variant: #fffcf2;
+  --color-white: #fffcf2;
   --color-light: rgba(255, 255, 255, 0.6);
 
   --transition: all 400ms ease;
@@ -35,10 +35,10 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: var(--color-bg);
+  /* background-color: var(--color-bg); */
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.png);
+  background-image: linear-gradient(to bottom right, #161a1d 30%, #037171 );
 }
 
 .container {
