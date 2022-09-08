@@ -11,6 +11,7 @@
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
+    
 }
 
 .about__me-image {
@@ -19,6 +20,7 @@
     transform: rotate(10deg);
     transition: var(--transition);
     aspect-ratio: 1/1;
+    width: 100%;
 }
 
 .about__me-image:hover {
