@@ -1,10 +1,10 @@
 import React from 'react';
 import IMG1 from '../../assets/savory-scripts.png';
 import IMG2 from '../../assets/to-do app.png';
-import IMG3 from '../../assets/savory-scripts.png';
+import IMG3 from '../../assets/google-map-clone.png';
 import IMG4 from '../../assets/NYCBARB.png';
 import IMG5 from '../../assets/to-do app.png';
-import IMG6 from '../../assets/NYCBARB.png';
+import IMG6 from '../../assets/RSVP-APP.PNG';
 
 import './portfolio.css';
 
@@ -41,13 +41,13 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: 'Shelter',
+      title: 'Google Maps Clone',
       img: IMG3,
       description:
-        'Fully responsive interactive website built based on Figma design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
-      github: 'https://github.com/Meri-MG/shelter',
+        'Fully responsive Google Maps clone built using HTML, CSS, Javascript, and Mapbox API',
+      technologies: 'JavaScript | CSS | HTML | Mapbox API',
+      link: 'https://google-map-clone.vercel.app/',
+      github: 'https://github.com/projectralph/google-map-clone',
     },
     {
       id: 5,
@@ -61,13 +61,13 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      title: 'Math Resource',
+      title: 'Capstone: Restaurant Reservation System',
       img: IMG6,
       description:
-        'Real-world group project which is still in progress and will provide educational platform for future young developers',
-      technologies: 'JavaScript | Scss | Python',
-      link: 'https://lukinoo.github.io/math-resource/',
-      github: 'https://github.com/lukinoo/math-resource',
+        'Final project for the Software Engineering course at Thinkful. This project was built using React, Node.js, Express, and PostgreSQL.',
+      technologies: 'React | PostgreSQL | Knex | Express | Node.js',
+      link: 'https://villa-frontend.herokuapp.com/dashboard',
+      github: 'https://github.com/projectralph/RSVP-APP',
     },
   ];
 
