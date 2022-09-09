@@ -30,7 +30,10 @@ const Intro = () => {
           </div>
           <p>Hi! I’m Ralph. 
 
-A New York City based full-stacked developer with a front-end focus that has a passion for building excellent software with exquisite user interfaces. I enjoy freelancing creative designs and improving my skills to tailor to today’s everchanging job market. When I’m not building software, I spend my time practicing powerlifting and riding bike. Welcome to my portfolio.
+A New York City based full-stacked developer with a front-end focus that has a passion for building excellent software with exquisite user interfaces. I enjoy freelancing creative designs
+ and improving my skills to tailor to today’s everchanging job market. A critical-thinking individual with a passion for improvement and being able to blend working
+objectives with personal and professional ambitions.
+  When I’m not building software, I spend my time competitive powerlifting. <br/>Welcome to my portfolio!
 </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>

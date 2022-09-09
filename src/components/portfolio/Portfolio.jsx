@@ -3,7 +3,7 @@ import IMG1 from '../../assets/savory-scripts.png';
 import IMG2 from '../../assets/to-do app.png';
 import IMG3 from '../../assets/google-map-clone.png';
 import IMG4 from '../../assets/NYCBARB.png';
-import IMG5 from '../../assets/to-do app.png';
+import IMG5 from '../../assets/one-touch-music.png';
 import IMG6 from '../../assets/RSVP-APP.PNG';
 
 import './portfolio.css';
@@ -51,13 +51,13 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      title: 'World News',
+      title: 'One Touch Music',
       img: IMG5,
       description:
-        'Fully responsive interactive website built based on Adobe XD design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/Unilab-world-news/',
-      github: 'https://github.com/Meri-MG/Unilab-world-news',
+        'Interactive music making app that allows users to create music by clicking on the screen',
+      technologies: 'JavaScript | CSS | HTML',
+      link: 'https://one-touch-music.vercel.app/',
+      github: 'https://github.com/projectralph/One-Touch-Music',
     },
     {
       id: 6,
