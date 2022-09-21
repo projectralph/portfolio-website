@@ -1,6 +1,6 @@
 import React from 'react';
 import IMG1 from '../../assets/savory-scripts.png';
-import IMG2 from '../../assets/to-do app.png';
+import IMG2 from '../../assets/SUMOSWAP.png';
 import IMG3 from '../../assets/google-map-clone.png';
 import IMG4 from '../../assets/NYCBARB.png';
 import IMG5 from '../../assets/one-touch-music.png';
@@ -32,12 +32,12 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: 'To-Do-App',
+      title: 'SUMOSWAP',
       img: IMG2,
-      description: 'User friendly app to plan your day and manage tasks',
-      technologies: 'React | Webpack',
-      link: 'https://to-do-app-theta-three.vercel.app/',
-      github: 'https://github.com/projectralph/To-Do-App',
+      description: 'Uniswap Clone (Web 3.0 Cryptocurrency Exchange Decentralized Application).',
+      technologies: 'React | CranQ',
+      link: 'https://sumoswap.netlify.app/',
+      github: 'https://github.com/projectralph/SUMOSWAP',
     },
     {
       id: 4,
