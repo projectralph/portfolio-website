@@ -35,7 +35,7 @@ const Portfolio = () => {
       title: 'SUMOSWAP',
       img: IMG2,
       description: 'Uniswap Clone (Web 3.0 Cryptocurrency Exchange Decentralized Application).',
-      technologies: 'React | CranQ',
+      technologies: 'React | CRANQ | Metamask',
       link: 'https://sumoswap.netlify.app/',
       github: 'https://github.com/projectralph/SUMOSWAP',
     },
