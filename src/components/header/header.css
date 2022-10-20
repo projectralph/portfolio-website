@@ -1,0 +1,88 @@
+header {
+  height: 100%;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+
+.main {
+transition: all 0.5s;
+-webkit-text-stroke: 2px white;
+font-variation-settings: "wght" 900, "ital" 1 ;
+font-size: 6rem;
+font-family: 'Racing Sans One', cursive;
+text-align: center;
+color: transparent;
+text-shadow: 2px 2px 2px #156464 ,
+4px 4px 0px #ACBCB1,
+6px 7px 0px #807d75,
+9px 9px 0px #505752,
+35px 35px 10px #22333b;
+cursor: pointer;
+}
+
+.main:hover {
+  -webkit-text-stroke: 3px #d6f4f4;
+  font-variation-settings: "wght" 100, "ital" 0;
+  text-shadow: none;
+}
+
+
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 2.5rem;
+}
+
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 5rem;
+  bottom: 1rem;
+}
+
+.header__socials::after {
+  content: '';
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+.scroll__down {
+  position: absolute;
+  right: 5rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1024px){
+  header {
+    height: 68vh;
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+  header {
+    height: 100vh;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+}
