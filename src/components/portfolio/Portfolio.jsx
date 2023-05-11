@@ -1,7 +1,7 @@
 import React from 'react';
 import IMG1 from '../../assets/savory-scripts.png';
 import IMG2 from '../../assets/SUMOSWAP.png';
-import IMG3 from '../../assets/google-map-clone.png';
+import IMG3 from '../../assets/teamwyrk-landing.png';
 import IMG4 from '../../assets/NYCBARB.png';
 import IMG5 from '../../assets/one-touch-music.png';
 import IMG6 from '../../assets/RSVP-APP.PNG';
@@ -41,13 +41,13 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: 'Google Maps Clone',
+      title: 'TeamWyrk.org',
       img: IMG3,
       description:
-        'Fully responsive Google Maps clone built using HTML, CSS, Javascript, and Mapbox API',
-      technologies: 'JavaScript | CSS | HTML | Mapbox API',
-      link: 'https://google-map-clone.vercel.app/',
-      github: 'https://github.com/projectralph/google-map-clone',
+        'Career Networking Website',
+      technologies: 'React | Node.js | Express.js | Firebase',
+      link: 'https://teamwyrk.org/',
+      github: 'https://github.com/noscenthairspray/TeamWyrk',
     },
     {
       id: 5,
